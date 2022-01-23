@@ -7,8 +7,7 @@ int main(){
 	string text;
 	ifstream bfile("b.txt");
 	ifstream afile("A.txt");
-	vector<string> bvector;
-	bfile.clear();
+	vector<string> bvector;	
 	vector<vector<string>> amatrix;
 	int N=0;
 	string line;
